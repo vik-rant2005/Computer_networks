@@ -14,7 +14,7 @@ public class bytestuffing {
         for (int i = 0; i < data.length(); i++) {
             char bit = data.charAt(i);
 
-            result += bit;  
+            result += bit;
 
             if (bit == '1') {
                 count++;
