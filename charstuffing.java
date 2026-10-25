@@ -1,6 +1,9 @@
+import java.util.Scanner;
+
 public class charstuffing {
     public static void main(String[] args) {
-        String data ="ABFG";
+        Scanner sc = new Scanner(System.in);
+        String data =sc.nextLine();
         char FLAG='F';
         char ESC='E';
         String frame="F";
