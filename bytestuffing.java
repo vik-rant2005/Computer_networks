@@ -14,7 +14,7 @@ public class bytestuffing {
         for (int i = 0; i < data.length(); i++) {
             char bit = data.charAt(i);
 
-            result += bit;  // Add original bit first
+            result += bit;  
 
             if (bit == '1') {
                 count++;
@@ -23,8 +23,8 @@ public class bytestuffing {
             }
 
             if (count == 5) {
-                result += '0'; // Insert stuffed zero
-                count = 0;     // Reset counter
+                result += '0';
+                count = 0;
             }
         }
 
